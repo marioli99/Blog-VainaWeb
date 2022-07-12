@@ -50,3 +50,7 @@ export const Ul = styled.ul`
   display: flex;
   margin-left: 25%;
 `;
+export const TextHeader = styled.p`
+  font-size: 25px;
+  color: #fed5b2;
+`;

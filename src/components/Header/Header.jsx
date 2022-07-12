@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../img/logo.png";
-import {Nav, Ul , Li, Title, ContainerHeader} from "../Header/HeaderStyle";
+import {Nav, Ul , Li, Title, ContainerHeader, TextHeader} from "../Header/HeaderStyle";
+import Card from "../../assets/Card/Card";
 export default function Header (){
     return(
         <ContainerHeader>
@@ -18,10 +19,8 @@ export default function Header (){
         </Nav>
 
         <Title>// Quer construir uma carreira de sucesso como Desenvolvedor(a) Front-end?</Title>
-        <h2>Inscreva-se no Vai na Web!</h2>
-        <p>Inscrições 02 a 21 de Agosto</p>
-        <p>Link para o formulário: bit.ly/CarreiraVaiNaWeb</p>
-
+        <Card/>
+        <TextHeader>Link para o formulário: bit.ly/CarreiraVaiNaWeb</TextHeader>
         </ContainerHeader>
     )
 }
