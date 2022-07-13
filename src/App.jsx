@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 import Header from "../src/components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
 import Formacao from "./components/Formacao/Formacao";
+import Eventos from "./components/Eventos/Eventos";
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -21,6 +22,7 @@ export default function App(){
     <Header/>
     <Sobre/>
     <Formacao/>
+    <Eventos/>
     </>
   )
 

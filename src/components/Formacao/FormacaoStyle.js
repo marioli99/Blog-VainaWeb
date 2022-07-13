@@ -24,10 +24,11 @@ export const Text = styled.p`
 `;
 
 export const MiniImg = styled.div`
-  width: 20vw;
+  width: 10vw;
   height: 10vh;
   background-color: antiquewhite;
-  display: flex;
+  display: inline-block;
+  margin-top: 10%;
 `;
 
 export const MaxImg = styled.div`
@@ -35,4 +36,8 @@ export const MaxImg = styled.div`
   background-color: firebrick;
   height: 60vh;
   margin: auto;
+`;
+
+export const Teste = styled.div`
+  display: flex;
 `;
